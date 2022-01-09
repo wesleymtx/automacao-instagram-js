@@ -1,3 +1,4 @@
+
 let  likes = 0;
 let intervalTime = 15000;
 function heartClick(){
@@ -8,7 +9,7 @@ function heartClick(){
 
         console.log(intervalTime); 
         const heart = document.querySelector('svg[aria-label="Gosto"]').parentNode; 
-        const arrow = document.querySelector('a.coreSpriteRightPaginationArrow');
+        const arrow = document.querySelector('svg[aria-label="Seguinte"]').parentNode; 
 
         setTimeout(function(){
                 heart.click();
